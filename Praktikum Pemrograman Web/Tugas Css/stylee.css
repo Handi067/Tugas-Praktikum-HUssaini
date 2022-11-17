@@ -1,0 +1,241 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;    
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family:  courier;
+    color: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: rgba(red, green, blue, alpha);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #F66B0E;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgba(red, green, blue, alpha);
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #94B49F;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+.botton {
+    width: 50px;
+    border: none;
+    color:black;
+    border-radius: 4px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #94B49F;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #94B49F;
+    width: 100%;
+    line-height: 50px;
+}
+h4{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #94B49F;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    margin: 110px;
+    width: 100%;
+}
+
+
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: center;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #94B49F;
+    line-height: 50px;
+}
+
+
+
+
+@media screen and (max-widht: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+    
+    .kartu-partner {
+        width: 50%;
+    }
+}
+
+.person {
+    width: 50%;
+
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    background:linear-gradient(-135deg, #F66B0E, #4158d0);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table td ,
+table th {
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
